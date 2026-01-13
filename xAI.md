@@ -44,3 +44,40 @@ Experience with Elastic/OpenSearch.
 Familiarity with Kibana/Grafana dashboarding.
 
 Development of security automation playbooks.
+
+
+# Prep by Sri 
+
+**Strength** : Translating vulnerability data into actionable risk decisions. I focus on exploitability, reachability, and business impact, and I use automation to scale that consistently across the organisation. 
+
+## Q. How to prioritise vulnerabilities beyond CVSS ? 
+CVSS measures severity (how bad it could be), but it doesn't account for risk (how likely it is to happen to you).
+Practical Implementation Workflow
+If you are drowning in a list of 10,000 vulnerabilities, apply these filters in order:
+
+Filter 1: Is it in the CISA KEV? (Immediate Action)
+
+Filter 2: Is it Remote Code Execution (RCE) on an Internet-facing asset? (High Priority)
+
+Filter 3: Does it have an EPSS score > 0.1 (10%)? (High Priority)
+
+Filter 4: Does it affect a Tier 0/1 Asset (Domain Controller, Database)? (High Priority)
+
+Filter 5: Everything else. (Scheduled Maintenance)
+
+## Q. How do you prioritise vulnerabilities 
+
+By combining CVSS base score with reachability, exploit availability, asset criticality, and MITRE attack path relevance 
+
+## Q. Why CVSS alone is not sufficient 
+It does not provide us with a risk score. CVSS measures technical severity but not business risk. 
+
+## Q. how to assess vulnerability reachability 
+by evaluating network exposure, authentication req, asset role, and whether the vulnerable code path is actually used 
+
+## Q. how to gain stakeholder buy in 
+by framing findings in business terms - what breaks, who's impacted, and what the cost is if we do not act. 
+
+
+
+
