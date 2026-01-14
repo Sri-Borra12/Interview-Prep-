@@ -11,3 +11,6 @@ Possible Interview Questions
 9. What is your favourite code editor and why
 10. Tell about a time you had a conflict at the workplace or with your teammate. How did you resolve it
 11. Explain a situation where you handled an entire IR process 
+12. What is your favorite CTF challenge
+13. Explain Router, switch, and firewall
+14. 
